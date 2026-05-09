@@ -1,0 +1,31 @@
+package com.arashad.backend;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Enumeration;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet("/aaa")
+public class myServlet extends HttpServlet {
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		PrintWriter out=resp.getWriter();
+	Enumeration<String> headerNames_enum=	req.getHeaderNames();
+	while(headerNames_enum.hasMoreElements()) {
+		
+		String header_names=headerNames_enum.nextElement();
+		String header_value=req.getHeader(header_names);
+		
+		out.print(header_value);
+		
+	}
+	}
+
+}
