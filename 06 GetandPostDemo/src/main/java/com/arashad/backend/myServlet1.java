@@ -9,22 +9,23 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet("/aaa")
-public class myServlet extends HttpServlet {
-
-	@Override
+@WebServlet("/bbb")
+public class myServlet1 extends HttpServlet {
+	
+	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+       
+		String name=req.getParameter("name1");
 		PrintWriter out = resp.getWriter();
-		out.println("I am in doGet() method");
+		out.println("Get "+name);
 
 	}
 
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+		String name=req.getParameter("name1");
 		PrintWriter out = resp.getWriter();
-		out.println("I am in doPost() method");
+		out.println("Post "+name);
 
 	}
-
 }
