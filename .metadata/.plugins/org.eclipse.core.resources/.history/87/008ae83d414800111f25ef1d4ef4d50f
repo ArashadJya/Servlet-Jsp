@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="servletCommunication2">
-        <property name="context-root" value="servletCommunication2"/>
-        <property name="java-output-path" value="/servletCommunication2/build/classes"/>
-    </wb-module>
-</project-modules>
