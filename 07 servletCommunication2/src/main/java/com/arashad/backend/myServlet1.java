@@ -1,7 +1,6 @@
 package com.arashad.backend;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -11,17 +10,12 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet("/aaa")
 public class myServlet1 extends HttpServlet {
-	
-
 	@Override
-protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		resp.sendError(404,"Page not found please try late ! This is a custom message");
-		
-		
-		
-		
-		
+		resp.sendError(404, "Page not found ,please try again later (This is a custom message)");
 	}
 
 }
+
+//This is a example of servlet communicate with browser

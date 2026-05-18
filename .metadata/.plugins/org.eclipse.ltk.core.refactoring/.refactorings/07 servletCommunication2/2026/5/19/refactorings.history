@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <session version="1.0">
-<refactoring comment="Rename compilation unit &apos;com.arashad.backend.myServlet.java&apos; to &apos;myServlet1.java&apos;&#x0D;&#x0A;- Original project: &apos;07 servletCommunication2&apos;&#x0D;&#x0A;- Original element: &apos;com.arashad.backend.myServlet.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.arashad.backend.myServlet1.java&apos;" description="Rename compilation unit &apos;myServlet.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;com.arashad.backend{myServlet.java" name="myServlet1.java" references="false" stamp="1777957924823" version="1.0"/>
+<refactoring comment="Rename resource &apos;servletCommunication2/src/main/java/com/arashad/backend/myServlet.java&apos; to &apos;myServlet1.java&apos;" description="Rename resource &apos;myServlet.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/arashad/backend/myServlet.java" name="myServlet1.java" stamp="1777958497732" updateReferences="true"/>
 </session>
