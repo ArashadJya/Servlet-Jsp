@@ -11,6 +11,7 @@
   <module moduleId="org.eclipse.jst.jee.server:servletCommunication2" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ServletCommunication3" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:06 GetandPostDemo" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:15 servletConfigDemo1" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:myFirstServlets" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07 ServletCommunications6" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:08 ServletCommunicationTask1" serverId="Tomcat v10.0 Server at localhost"/>
