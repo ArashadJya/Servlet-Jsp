@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+  <context-param>
+     <param-name>myName</param-name>
+     <param-value>Arashad Jya</param-value>
+  </context-param>
+</web-app>
