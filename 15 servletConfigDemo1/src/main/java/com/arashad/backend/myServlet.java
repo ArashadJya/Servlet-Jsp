@@ -40,3 +40,4 @@ public class myServlet extends HttpServlet{
 	}
 
 }
+//This is a example of store data through the web.xml file
