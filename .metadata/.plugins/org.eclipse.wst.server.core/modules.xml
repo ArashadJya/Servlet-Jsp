@@ -17,6 +17,7 @@
   <module moduleId="org.eclipse.jst.jee.server:myFirstServlets" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07 ServletCommunications6" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:08 ServletCommunicationTask1" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:16 FilterDemo2" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07 ServletCommunications7" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:08 ServletCommunicationTask2" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:12 Url-Rewritting2" serverId="Tomcat v10.0 Server at localhost"/>

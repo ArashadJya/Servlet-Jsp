@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>reg</servlet-name>
+		<servlet-class>com.arashad.backend.Register</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>reg</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	
+	<filter>
+		<filter-name>EncDecFilter</filter-name>
+		<filter-class>com.arashad.filter.EncDecFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>EncDecFilter</filter-name>
+		<url-pattern>/register</url-pattern>
+	</filter-mapping>
+	
+	<filter>
+		<filter-name>filterDemo</filter-name>
+		<filter-class>com.arashad.filter.ValidationFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>filterDemo</filter-name>
+		<url-pattern>/register</url-pattern>
+	</filter-mapping>
+</web-app>
