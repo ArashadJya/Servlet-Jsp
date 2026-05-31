@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet( urlPatterns = {"/myServlet"},
                              initParams = {
-                            		 @WebInitParam(name="name1",value = "Arashad"),
+                            		 @WebInitParam(name="name1",value = "Arashad Jya"),
                             		 @WebInitParam(name="email1",value = "jya@gmail.com")
                              }
 		)
