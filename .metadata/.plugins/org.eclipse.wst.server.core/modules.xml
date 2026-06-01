@@ -31,6 +31,7 @@
   <module moduleId="org.eclipse.jst.jee.server:07 servletCommunication2" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07 servletCommunication1" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:13 Hidden-form-field2" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:17 JSPDemo1" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07 servletCommunications5" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07 servletCommunications4" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:12 Url-Rewritting" serverId="Tomcat v10.0 Server at localhost"/>
