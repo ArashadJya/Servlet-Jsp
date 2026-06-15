@@ -30,3 +30,5 @@ public class myServlet extends HttpServlet {
 	}
 
 }
+
+//This is a example of Header Data in Request Object
